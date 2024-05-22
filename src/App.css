@@ -2,19 +2,36 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .search-field {
+  text-align: center;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App h1 {
+  margin-bottom: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
+.App input {
+ padding: .7rem 1.5rem;
+ font-size: 1.2rem;
+ border-radius: 20px;
+ border: 1px solid rgba(255, 255, 255, 0.398);
+ background: rgba(255,255,255,0.1);
+ backdrop-filter: blur(5px);
+ color: white;
+}
+
+.App input:focus {
+  outline:none;
+  border-color:#9ecaed;
+  box-shadow:0 0 10px #9ecaed;
+}
+
+.container {
+  background-image: url('./assets/landscape.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +41,43 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.weather-card{
+  padding-left: 50px;
+  padding-right: 50px;
+
+  border: 1px transparent white;
+  border-radius: 20px;
+  height: 50%;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1) ;
+  background: rgba(255,255,255,0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 10%;
+}
+.top{
+  max-width: 50%;
+  margin: 15%;
+  border: 1px transparent;
+  padding: 15%;
+  max-width: fit-content;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-field{
+  margin: 2%;
+  background: rgba(255,255,255,0.1);
+  border-radius: 20px;
+}
+
+.bottom{
+  margin-right: 15%;
+}
+
+.location{
+  font-size: 50px;
 }
