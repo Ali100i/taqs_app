@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/taqs_app/static/css/main.eac13453.chunk.css",
+    "main.js": "/taqs_app/static/js/main.516e0132.chunk.js",
+    "main.js.map": "/taqs_app/static/js/main.516e0132.chunk.js.map",
+    "runtime~main.js": "/taqs_app/static/js/runtime~main.4520855e.js",
+    "runtime~main.js.map": "/taqs_app/static/js/runtime~main.4520855e.js.map",
+    "static/js/2.2b2162b8.chunk.js": "/taqs_app/static/js/2.2b2162b8.chunk.js",
+    "static/js/2.2b2162b8.chunk.js.map": "/taqs_app/static/js/2.2b2162b8.chunk.js.map",
+    "static/js/3.3b6fb9ae.chunk.js": "/taqs_app/static/js/3.3b6fb9ae.chunk.js",
+    "static/js/3.3b6fb9ae.chunk.js.map": "/taqs_app/static/js/3.3b6fb9ae.chunk.js.map",
+    "index.html": "/taqs_app/index.html",
+    "precache-manifest.b133f34c83878748dd50596567b96305.js": "/taqs_app/precache-manifest.b133f34c83878748dd50596567b96305.js",
+    "service-worker.js": "/taqs_app/service-worker.js",
+    "static/css/main.eac13453.chunk.css.map": "/taqs_app/static/css/main.eac13453.chunk.css.map",
+    "static/media/App.css": "/taqs_app/static/media/landscape.245a7cc6.jpg"
+  }
+}
